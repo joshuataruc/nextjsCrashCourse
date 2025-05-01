@@ -3,7 +3,7 @@ export default function Products() {
     const productId = 100;
     return (
         <>
-            <Link href="/" className="bg-sky-500 hover:bg-sky-700 text-white py-2 px-4 m-5 mb-5 rounded-lg">Home</Link>
+            {/* <Link href="/" className="bg-sky-500 hover:bg-sky-700 text-white py-2 px-4 m-5 mb-5 rounded-lg">Home</Link> */}
             <h1>Products</h1>
             <h2>
                 <Link href="/products/1" className="underline decoration-blue-500 underline-offset-2">Products 1</Link>
