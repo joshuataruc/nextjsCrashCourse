@@ -1,0 +1,1 @@
+route groups (using ()) allow you to organize files without affecting URLs. For example, a folder structure like /app/(dashboard)/settings will map to /settings without including dashboard in the URL. It's great for cleaner URLs, modular code, and better organization. Let me know if you'd like more details!

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 // Import for font customization (commented for now)
 // import { Inter } from "next/font/google";
-import "./globals.css";
+import "../globals.css";
 
 // Uncomment and configure font settings as needed
 // const inter = Inter({
@@ -10,11 +10,7 @@ import "./globals.css";
 // });
 
 export const metadata: Metadata = {
-  title: {
-    default: "THI Next Training", // Default title that appears on pages without a specific title.
-    template: "%s | THI Next Training", // Dynamically generates page titles for better SEO by appending specific content (e.g., page names) to the brand name.
-    // absolute: "" // Placeholder for absolute titles if needed, ensuring full control over title generation the template will not have an effect in absolute. example of absolute will be on blog
-},
+  title: "Next Crash Course",
   description: "Next Training THI",
 };
 
@@ -40,7 +36,7 @@ export default function RootLayout({
         {children}
         <footer
           style={{
-            backgroundColor: "#7ab8cc",
+            backgroundColor: "ghostwhite",
             padding: "1rem",
           }}
         >
